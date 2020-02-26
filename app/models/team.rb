@@ -1,16 +1,16 @@
-class Team 
+#class Team 
   
-  attr_reader :name, :motto
+ # attr_reader :name, :motto
   
-  TEAM = []
+  #TEAM = []
   
-  def initialize(params)
-    @name = params[:name]
-    @motto = params[:motto]
-    TEAM << self 
-  end 
+#  def initialize(params)
+ #   @name = params[:name]
+  #  @motto = params[:motto]
+   # TEAM << self 
+  #end 
   
-  def self.all 
-    TEAM
-  end 
-end 
+  #def self.all 
+   # TEAM
+#  end 
+#end 
